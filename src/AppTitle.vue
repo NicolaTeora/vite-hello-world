@@ -9,7 +9,7 @@ export default {
       title: 'La mia prima app con Vite!'
     }
   },
-
+// carico i componenti da utilizzare
   components: { AppHero },
 
   methods(){},
