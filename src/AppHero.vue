@@ -19,13 +19,17 @@ export default {
     height: 350px;
     width: 750px;
     margin: 5px auto;
+    display: flex;
+    align-items: center;
 
     background-color: bisque;
 }
 
 .jumbotrone:hover{
     background-color: lightblue;
-    box-shadow: 10px 5px 5px;
+    box-shadow: 10px 5px 5px black;
+    color: brown;
+    text-shadow: 5px 5px 5px black;
 }
 
 h1{
@@ -33,12 +37,4 @@ h1{
     margin: 10px auto;
 }
 
-h1:hover{
-    /* border: 2px solid brown; */
-    /* border-radius: 5px; */
-    padding: 5px 10px ;
-
-    color: brown;
-    text-shadow: 5px 5px 5px black;
-}
 </style>
