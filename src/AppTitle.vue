@@ -1,6 +1,8 @@
 <script>
+//importo il componente che voglio utilizzare nel foglio principale
 import AppHero from './AppHero.vue'
 
+//imposto i dati da utilizzare nella pagina principale
 export default {
   data (){
     return{
@@ -8,9 +10,7 @@ export default {
     }
   },
 
-  components: {
-    AppHero: AppHero,
-  },
+  components: { AppHero },
 
   methods(){},
 
@@ -21,6 +21,7 @@ export default {
 <template>
   <div class="container">
     <h1>{{ title }}</h1>
+    <!-- passo e utilizzo i componenti come se fossero dei tag self-closed -->
     <AppHero />
   </div>
 </template>
