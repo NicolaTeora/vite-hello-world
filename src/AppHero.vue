@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 .jumbotrone{
-    height: 600px;
+    height: 350px;
     width: 750px;
     margin: 5px auto;
 
@@ -21,5 +21,6 @@ export default {
 
 .jumbotrone:hover{
     background-color: lightblue;
+    box-shadow: 10px 5px 5px;
 }
 </style>
