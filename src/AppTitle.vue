@@ -6,7 +6,7 @@ import AppHero from './AppHero.vue'
 export default {
   data (){
     return{
-      title: 'La mia prima app con Vite!'
+      titlePage: 'La mia prima app con Vite!'
     }
   },
 // carico i componenti da utilizzare
@@ -20,9 +20,13 @@ export default {
 
 <template>
   <div class="container">
-    <h1>{{ title }}</h1>
+    <h3>{{ titlePage }}</h3>
+    
     <!-- passo e utilizzo i componenti come se fossero dei tag self-closed -->
-    <AppHero />
+    <AppHero>
+    </AppHero>
+    
+    
   </div>
 </template>
 
