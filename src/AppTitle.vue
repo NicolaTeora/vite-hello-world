@@ -1,6 +1,6 @@
 <script>
 //importo il componente che voglio utilizzare nel foglio principale
-import AppHero from './AppHero.vue'
+import AppHero from './components/AppHero.vue'
 
 //imposto i dati da utilizzare nella pagina principale
 export default {
